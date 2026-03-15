@@ -1,4 +1,4 @@
-# Aplikasi CRUD Karyawan dengan Java Swing
+# Aplikasi CRUD Karyawan dengan Java Swing - Praktik OOP Java
 
 Aplikasi desktop sederhana untuk mengelola data karyawan menggunakan Java Swing dan MySQL. Dibuat sebagai tutorial belajar Java dengan GUI dan database.
 
