@@ -170,7 +170,12 @@ mvn compile exec:java
 # Compile
 mvn compile
 
-# Run
+# Run (Windows PowerShell / Copas semua dalam 1 line)
+mvn -q dependency:build-classpath "-Dmdep.outputFile=cp.txt"
+$cp = Get-Content .\cp.txt
+java -cp "target\classes;$cp" javatutorial.Main
+
+# Run (Linux/macOS)
 java -cp target/classes:$(mvn dependency:build-classpath -Dmdep.outputFile=/dev/stdout -q) javatutorial.Main
 ```
 
@@ -201,6 +206,7 @@ crud-swing-karyawan/
 
 ### Error: "Class not found"
 - Pastikan semua dependensi terdownload: `mvn dependency:resolve`
+- Untuk Windows PowerShell, gunakan pemisah classpath `;` (bukan `:`)
 
 ### Error: "Data truncation: Incorrect date value"
 - Pastikan format tanggal benar: Tahun 1900-2100, Bulan 1-12, Hari 1-31
