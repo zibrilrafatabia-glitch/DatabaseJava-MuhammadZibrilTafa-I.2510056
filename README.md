@@ -62,7 +62,7 @@ Sebelum menjalankan aplikasi, pastikan sistem Anda memiliki:
   brew install maven
 
   # Windows:
-  Download bin dari [Apache Maven 3.9.14 (ZIP)](https://dlcdn.apache.org/maven/maven-3/3.9.14/binaries/apache-maven-3.9.14-bin.zip)
+  Download bin dari https://dlcdn.apache.org/maven/maven-3/3.9.14/binaries/apache-maven-3.9.14-bin.zip
   jangan lupa di extract dulu zipnya
   buka start menu dan cari "Edit the system environment variables"
   buka tab "advance", tekan "Environment Variables"
@@ -70,7 +70,7 @@ Sebelum menjalankan aplikasi, pastikan sistem Anda memiliki:
   masukan "MAVEN_HOME" sebagai nama variabel, dan lokasi dari si maven sebagai valuenya
   terus masih di "system variabel" teken yang ada tulisan "path" terus teken tombol "edit" di bawah
   teken "new" terus tulis "%MAVEN_HOME%\bin"
-  kalau masih kurang paham bisa cek [panduan install Maven di Windows](https://phoenixnap.com/kb/install-maven-windows)
+  kalau masih kurang paham bisa cek https://phoenixnap.com/kb/install-maven-windows
   ```
 - **Verifikasi**: `mvn -version`
 
