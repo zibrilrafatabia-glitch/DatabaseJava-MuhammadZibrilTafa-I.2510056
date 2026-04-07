@@ -1,7 +1,7 @@
 # Database Java CRUD System - MUHAMMAD ZIBRIL TAFA TABIA (I.2510056)
 
 ## 📌 Deskripsi Proyek
-Proyek ini adalah aplikasi Desktop berbasis Java yang mengimplementasikan sistem **CRUD (Create, Read, Update, Delete)** untuk manajemen data karyawan. Aplikasi ini dibangun menggunakan pustaka **Java Swing** untuk antarmuka pengguna (GUI) dan **JDBC (Java Database Connectivity)** sebagai jembatan komunikasi dengan database **MySQL**.
+Proyek ini adalah aplikasi Desktop berbasis Java yang mengimplementasikan sistem **CRUD (Create, Read, Update, Delete)** untuk manajemen data karyawan menggunakan Java Swing dan JDBC MySQL.
 
 ---
 
@@ -15,8 +15,8 @@ Proyek ini adalah aplikasi Desktop berbasis Java yang mengimplementasikan sistem
 
 ## 🏗️ Struktur Project
 * `src/main/java/javatutorial/`: Kode sumber aplikasi.
-* `zibril_db.sql`: Skema database (terletak di root).
-* `assets/`: Folder bukti pengujian dan screenshot.
+* `zibril_db.sql`: Skema database.
+* `assets/`: Folder bukti pengujian.
 
 ---
 
