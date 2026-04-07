@@ -15,8 +15,8 @@ Proyek ini adalah aplikasi Desktop berbasis Java yang mengimplementasikan sistem
 
 ## 🏗️ Struktur Project
 * `src/main/java/javatutorial/`: Kode sumber aplikasi.
-* `zibril_db.sql`: Skema database (ada di root).
-* `Assets/`: Folder bukti pengujian.
+* `zibril_db.sql`: Skema database (terletak di root).
+* `assets/`: Folder bukti pengujian dan screenshot.
 
 ---
 
